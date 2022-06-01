@@ -10,7 +10,6 @@ import Arxiv3 from '../../Pages/BoshqaArxiv/BoshqaArxiv';
 import BoshqaApp from '../../Pages/BoshqaApp/BoshqaApp';
 
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import useToken from '../../Hook/UseToken';

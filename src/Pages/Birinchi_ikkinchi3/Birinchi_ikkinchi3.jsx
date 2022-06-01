@@ -8,72 +8,123 @@ import { Link } from 'react-router-dom';
 const BirinchiIkkinchi3 = () => {
   const Oqituvchi = [
     {
-      id:1,
+      id:2,
       materialName: "o'tkan kunlar 1-qism",
       author: "Abdulla Qodiriy",
       file: "mp3",
       photo: "/image/utkan kunlar.jpg",
-      file_name: "/kitoblar/01_otkan_kunlar.mp3",
-      roll: ['student'],
-      categories: ['student']
-    },
-    {
-      id:2,
-      materialName: "O'tkan kunlar 2-qism",
-      author: "Abdulla Qodiriy",
-      file: "mp3",
-      photo: "/image/utkan kunlar.jpg",
-      file_name: "/kitoblar/02_otkan_kunlar.mp3",
+      file_name: "/01_otkan_kunlar.mp3",
       roll: ['student'],
       categories: ['student']
     },
     {
       id:3,
-      materialName: "O'tkan kunlar 4-qism",
+      materialName: "O'tkan kunlar 2-qism",
       author: "Abdulla Qodiriy",
       file: "mp3",
       photo: "/image/utkan kunlar.jpg",
-      file_name: "/kitoblar/04_otkan_kunlar.mp3",
+      file_name: "/02_otkan_kunlar.mp3",
       roll: ['student'],
       categories: ['student']
     },
     {
       id:4,
-      materialName: "60 yoshda san'atning nurli yo'li",
-      author: "Farg'ona kolleki",
+      materialName: "O'tkan kunlar 4-qism",
+      author: "Abdulla Qodiriy",
       file: "mp3",
-      photo: "/image/nurli_yul.jpg",
-      file_name: "../kitoblar/60_yoshda_sanatning_nurli_yoli.pdf",
+      photo: "/image/utkan kunlar.jpg",
+      file_name: "/04_otkan_kunlar.mp3",
       roll: ['student'],
       categories: ['student']
     },
     {
       id:5,
-      materialName: "Abay she'rlar va poemalari",
-      author: "Abay",
-      file: "pdf",
-      photo: "../image/abay.jpg",
-      file_name: "../kitoblar/abay_sherlar_va_poemalar.pdf",
+      materialName: "60 yoshda san'atning nurli yo'li",
+      author: "Farg'ona kolleki",
+      file: "mp3",
+      photo: "/image/nurli_yul.jpg",
+      file_name: "60_yoshda_sanatning_nurli_yoli.pdf",
       roll: ['student'],
       categories: ['student']
     },
     {
       id:6,
-      materialName: "Tong",
-      author: "Zulfiya",
-      file: "mp3",
-      photo: "../image/",
-      file_name: "../kitoblar/zulfiya_tong.mp3",
+      materialName: "Abay she'rlar va poemalari",
+      author: "Abay",
+      file: "pdf",
+      photo: "../image/abay.jpg",
+      file_name: "../abay_sherlar_va_poemalar.pdf",
       roll: ['student'],
       categories: ['student']
     },
     {
       id:7,
+      materialName: "Yana Bahor hokim",
+      author: "Zulfiya",
+      file: "mp3",
+      photo: "",
+      file_name: "../zulfiya_yana_bahor_hokim.mp3",
+      roll: ['student'],
+      categories: ['student']
+    },
+    {
+      id:8,
+      materialName: "Yillar Sadosi",
+      author: "Zulfiya",
+      file: "pdf",
+      photo: "../image/",
+      file_name: "../zulfiya_yillar_sadosi.pdf",
+      roll: ['student'],
+      categories: ['student']
+    },
+    {
+      id:9,
+      materialName: "Torga Tashrif",
+      author: "Zulfiya",
+      file: "mp3",
+      photo: "../image/",
+      file_name: "../zulfiya_torga_tashrif.mp3",
+      roll: ['student'],
+      categories: ['student']
+    },
+    {
+      id:10,
+      materialName: "Tong",
+      author: "Zulfiya",
+      file: "mp3",
+      photo: "../image/",
+      file_name: "../zulfiya_tong.mp3",
+      roll: ['student'],
+      categories: ['student']
+    },
+    {
+      id:11,
+      materialName: "Suq",
+      author: "Zufiya",
+      file: "pdf",
+      photo: "../image/",
+      file_name: "../zulfiya_suq.mp3",
+      roll: ['student'],
+      categories: ['student']
+    },
+    {
+      id:12,
       materialName: "Sharait",
       author: "Shareit",
       file: "app",
       photo: "",
       file_name: "https://play.google.com/store/apps/details?id=com.lenovo.anyshare.gps&hl=ru&gl=US",
+      roll: ['student'],
+      categories: ['student']
+    },
+
+    {
+      id:13,
+      materialName: "Referat",
+      author: "3-kurs talabasi",
+      file: "docx",
+      photo: "",
+      file_name: "/Новыйдокумент(5).docx",
       roll: ['student'],
       categories: ['student']
     },
@@ -87,7 +138,7 @@ const BirinchiIkkinchi3 = () => {
   console.log(arxivSoni);
   const [sardor, setSardor] = useState(Oqituvchi)
   return (
-    <div>dfsf
+    <div>boshqa kishi
       {arxivSoni}
       {
         sardor.map((item)=>{
